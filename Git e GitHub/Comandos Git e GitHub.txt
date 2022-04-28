@@ -1,0 +1,2 @@
+# Git
+cd - Entrar na pasta;

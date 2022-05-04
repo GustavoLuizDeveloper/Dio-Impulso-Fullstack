@@ -1,3 +1,0 @@
-# Git
-git config --global user.name "Leonardo Comelli"
-cd - Entrar na pasta;

@@ -1,0 +1,62 @@
+body
+{
+    font: 20px ariel;
+}
+
+.navbar 
+{
+    background-color: #6132A2;
+    height: 150px;
+}
+
+.Quemsomos
+{
+    background-color: aqua;
+    padding-top: 20px;
+}
+
+.margin
+{
+    padding-bottom: 50px;
+}
+
+.nav-itemQ
+{
+    font-size: 30px;
+}
+
+.nav-itemP
+{
+    font-size: 30px;
+}
+
+.nav-itemS
+{
+    font-size: 30px;
+}
+
+.parceiros
+{
+    padding: 30px;
+    text-transform: uppercase;
+}
+
+.col-lg-4
+{
+    padding: 5px;
+}
+
+.serviços
+{
+    padding: 50px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.bg-footer
+{
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    text-transform: uppercase;
+}

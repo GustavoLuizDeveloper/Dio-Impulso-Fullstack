@@ -1,0 +1,151 @@
+:root
+{
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+    height: 3000px;
+}
+
+header .container 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .Logo
+{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover
+{
+    color: #fff;
+}
+
+/*Filme Principal*/
+
+.Filme-Principal
+{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('img/Series/Lucifer.jpg');
+    height: 900px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Filme-Principal .descricao
+{
+    margin-top: 20px;
+    margin-bottom: 90px;
+    font-size: 20px;
+}
+
+.Titulo
+{
+    margin-top: 15%;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.Botao
+{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+
+    padding: 15px 30px;
+    margin-left: 50px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.Botao:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.Botao i
+{
+    margin-right: 8px;
+}
+
+.container
+{
+    margin-left: 50px;
+}
+
+.Filme-Principal .container
+{
+    width: 80%;
+}
+
+.Box-filme
+{
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+
+.Series
+{
+    font-size: 40px;
+    padding-left: 50px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Filmes
+{
+    font-size: 40px;
+    padding-left: 50px;
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Documentario
+{
+    font-size: 40px;
+    padding-left: 50px;
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Topo
+{
+    font-size: 20px;
+    padding-left: 50px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
